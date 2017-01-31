@@ -6,13 +6,23 @@ package com.simple.example.project
 class CalculatorUT extends ScalaTestSupport{
 
 
-  "add" should "return the correct result" in {
+  "add" should "return the correct sum" in {
+
     val calculator = new Calculator
 
-    val result = calculator.add(1,2)
+    val sum = calculator.add(1,2)
 
-    result should be(3)
+    sum should be(3)
 
+  }
+
+  "subtract" should "return the difference" in {
+
+    val calculator = new Calculator
+
+    val difference = calculator.subtract(3,2)
+
+    difference should be(1)
   }
 
 }
