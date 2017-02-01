@@ -9,7 +9,7 @@ object Main {
 
     val calculator = new Calculator
 
-    println(calculator.add(1,2))
+    println("result = " + calculator.add(1,2))
 
   }
 
