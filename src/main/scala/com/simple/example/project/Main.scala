@@ -8,8 +8,8 @@ object Main {
   def main(args: Array[String]): Unit ={
 
     val calculator = new Calculator
-    
-    print(calculator.add(1,2))
+
+    println(calculator.add(1,2))
 
   }
 

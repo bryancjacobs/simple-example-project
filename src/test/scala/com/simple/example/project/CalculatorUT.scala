@@ -3,7 +3,7 @@ package com.simple.example.project
 /**
   * Created by bjacobs on 1/31/17.
   */
-class CalculatorUT extends ScalaTestSupport{
+class CalculatorUT extends ScalaTestSupport {
 
 
   "add" should "return the correct sum" in {
