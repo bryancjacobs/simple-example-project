@@ -13,4 +13,8 @@ class Calculator {
     v1 - v2
   }
 
+  def multiply(v1:Int, v2:Int):Int ={
+    v1 * v2
+  }
+
 }

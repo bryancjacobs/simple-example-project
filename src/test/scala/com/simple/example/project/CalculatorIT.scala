@@ -6,6 +6,7 @@ package com.simple.example.project
 class CalculatorIT extends ScalaTestSupport{
 
   "add" should "return a valid number (not a real IT test)" in {
+
     val calculator = new Calculator
 
     val result = calculator.add(2,4)
